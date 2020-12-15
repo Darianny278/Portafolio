@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Portafolio</title>
+        <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+         
+        </head>
+
+    <body>
+    <header >
+        <a href="#" class="logo">Portafolio</a>
+        <div class="toggle" onclick="toggleMenu();">
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu();">Inicio</a></li>
+                <li><a href="#sobremi" onclick="toggleMenu();">Sobre Mi</a></li>
+                <li><a href="#proyectos" onclick="toggleMenu();">Proyectos</a></li>
+                <li><a href="#contactame" onclick="toggleMenu();">Contactame</a></li>
+            </ul>
+        </div>
+    </header>    
+   <section class="banner" id="home">
+       <div class="textbx">
+           <h2>Hola, soy <br><span> Darianny Peguero.</span></h2>
+           <h3>Software Developer.</h3>
+           <a href="https://darianny278.github.io/CV/" target="_blank" class="btn">Ver CV</a>
+       </div>
+   </section>
+   <section class="about" id="sobremi">
+  <div class="heading">
+      <h2>Sobre Mi</h2>
+  </div>
+  <div class="content">
+      <div class="contentBx">
+          <h3>Soy Software Developer</h3>
+          <p>Soy una programadora Junior, especialmente con C# y Sql. 
+              En cuanto a Backend estoy familiarizada con lenguajes de 
+              programación como Java y un poco con JS. Tambien tengo conocimientos
+               de Net Core MVC y Entity Framework. En Frontend, manejo HTML y CSS.
+                En base de datos manejo SQlServer, MySql y SQLite. 
+              Actualmente estoy aprendiendo más sobre JavaScript.
+               Aprendo rápido y soy proactiva.<br><br>Busco adquirir experiencia, 
+               aprender nuevas cosas y crecer en cuanto a conocimientos, 
+               dando lo mejor de mi y siendo eficiente para la empresa,
+                acercandome cada vez más un paso a mis metas personales 
+                como fruto de mi trabajo.</p>
+      </div>
+      <div class="w50">
+          <img  class="img" src="img/dp.jpg">
+      </div>
+  </div>
+   </section>
+   <section class="projects" id="proyectos">
+       <div class="heading white">
+           <h2>Mis Proyectos</h2>
+           <p>Algunos de mis proyectos con imagenes de su ejecución.</p>
+       </div>
+       <div class="heading white">
+        <h3>Tienda Online</h3>
+        <p>Este proyecto consistió en Realizar un Super Mercado Online, 
+            con una vista para clientes y una para administrador donde puede agregar productos, categorias, etc.</p>
+    </div>
+       <div class="content">
+           <div class="TO">
+               <img src="img/inicial.png">
+               <p>Ventana Inicial cuando el usuario entra a la Web.</p>
+           </div>
+           <div class="TO">
+            <img src="img/admiopcion.png">
+            <p>Ventana de Admi con acciones de Administrador.</p>
+        </div>
+       </div>
+       <br>
+       <div class="heading white">
+        <h3>Pegasus5</h3>
+        <p>Esta es una app en Android Studio que consiste 
+            en un juego de preguntas con diferentes módulos que pondrán 
+            a prueba tus conocimientos.</p>
+    </div>
+    <div class="content">
+        <div class="AS">
+            <img src="img/inicio.png">
+            <p>Esta es la pantalla principal con dos botones con las opciones de jugar o practicar.</p>
+        </div>
+        <div class="AS">
+         <img src="img/modulos.png">
+         <p>Pestaña con los diferentes módulos, incluyendo la ruleta que 
+             contiene preguntas aleatorias de todos los módulos.</p>
+     </div>
+     <div class="AS">
+        <img src="img/historia.png">
+        <p>Módulo de Historia, por niveles, que se desbloquean 
+            a medida que se pasa el nivel anterior.</p>
+    </div>
+    <div class="AS">
+        <img src="img/ruleta.png">
+        <p>Esta es la ruleta, la cual al detenerse en un modulo,
+            pone una pregunta aleatoria de dicho módulo.
+        </p>
+    </div>
+    </div>
+   </section>
+   <section class="contact" id="contactame">
+    <div class="heading whit">
+        <h2>Contactame</h2>
+        <p>Puede contactarme por correo o llamandome.</p>
+    </div>
+    <div class="content">
+        <div class="contactInfo">
+     <h3>Informacion de Contacto</h3>
+     <div class="contactInfoBox">
+     <div class="box">
+         <div class="icon">
+   <i class="fas fa-map-marker-alt"></i>
+         </div>
+         <div class="text">
+             <h3>Direccion</h3>
+           <p>Perla Antillana, Calle 1ra #12</p>
+            </div>
+     </div>
+     <div class="box">
+        <div class="icon">
+            <i class="fa fa-phone-alt"></i>
+        </div>
+        <div class="text">
+            <h3>Telefono</h3>
+          <p>829-959-8933</p>
+           </div>
+    </div>
+    <div class="box">
+        <div class="icon">
+            <i class="fas fa-envelope-square"></i>
+        </div>
+        <div class="text">
+            <h3>Correo</h3>
+          <p>Dariannypeguero2904@gmail.com</p>
+           </div>
+    </div>
+     </div>
+       
+        </div>
+        <div class="formBx">
+            <form>
+                <h3>Escribeme</h3>
+                <input type="text" name="" placeholder="Nombre y Apellido">
+                <input type="email" name="" placeholder="Correo Electronico">
+                <textarea placeholder="Tu mensaje"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+
+   </section>
+   <script type="text/javascript">
+   window.addEventListener('scroll', function(){
+       var header = document.querySelector('header');
+       header.classList.toggle('sticky', window.scrollY>0);
+   });
+
+   function toggleMenu(){
+       var menuToggle = document.querySelector('.toggle');
+       menuToggle.classList.toggle('active')
+       var menu = document.querySelector('.menu');
+       menu.classList.toggle('active')
+   }
+   </script>
+    </body>
+</html>
