@@ -122,8 +122,10 @@ header ul li a {
 .content{
   display: flex;
   justify-content: space-between;
+  
 
 }
+
 .contentBx{
   padding-right: 30px;
 }
@@ -196,7 +198,7 @@ margin-top: 10px;
 {
  color: #111;
 }
-.formBx{
+/*.formBx{
   min-width: 60%;
 
 }
@@ -234,6 +236,12 @@ background: #2196f3;
 cursor: pointer;
 text-transform: uppercase;
 letter-spacing: 2px;
+}*/
+.contentContact{
+  position: absolute;
+ left: 40%;
+ right: 40%;
+
 }
 
 .contactInfo{
@@ -273,14 +281,17 @@ font-weight: 300;
 
 
 /*Responsive*/
-@media (max-width: 991px){
-  header,
-  header.sticky{
+@media (max-width: 991px)
+{
+  header, 
+  header.sticky
+  {
     padding: 20px 50px;
     z-index: 1000;
   }
 
-  .menu{
+  .menu
+  {
     position: fixed;
     top: 75px;
     left: -100%;
@@ -292,7 +303,7 @@ font-weight: 300;
     background: #fff;
     transition: 0.5s;
     z-index: 999;
-    border-top: 1 px solid rgba(0,0,0,0.2); 
+    
   }
   .menu.active{
     left: 0;
