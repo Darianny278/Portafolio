@@ -368,4 +368,8 @@ font-weight: 300;
   
     margin: 20px 0;
   }
+  .about .content .w50 img{
+    max-width: 100%;
+    margin-left: auto;
+  }
 }
